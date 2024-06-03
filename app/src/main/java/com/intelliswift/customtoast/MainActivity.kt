@@ -42,62 +42,6 @@ class MainActivity : AppCompatActivity() {
                 setCustomIconAnim = isChecked
             }
 
-            /*successBtn.setOnClickListener {
-                Toastic.toastic(
-                    context = this@MainActivity,
-                    message = "This is Success Toastic!",
-                    duration = Toastic.LENGTH_SHORT,
-                    type = Toastic.SUCCESS,
-                    isIconAnimated = animateIcon,
-                    font = if (changeFont) R.font.helveticabold else null,
-                    customIcon = if (setCustomIcon) R.drawable.ic_custom_icon else null,
-                    textColor = if (changeTextColor) Color.BLUE else null,
-                    customIconAnimation = if (setCustomIconAnim) R.anim.rotate else null
-                ).show()
-            }
-
-            warningBtn.setOnClickListener {
-                Toastic.toastic(
-                    context = this@MainActivity,
-                    message = "This is Warning Toastic!",
-                    duration = Toastic.LENGTH_SHORT,
-                    type = Toastic.WARNING,
-                    isIconAnimated = animateIcon,
-                    font = if (changeFont) R.font.helveticabold else null,
-                    customIcon = if (setCustomIcon) R.drawable.ic_custom_icon else null,
-                    textColor = if (changeTextColor) Color.BLUE else null,
-                    customIconAnimation = if (setCustomIconAnim) R.anim.rotate else null
-                ).show()
-            }
-
-            errorBtn.setOnClickListener {
-                Toastic.toastic(
-                    context = this@MainActivity,
-                    message = "This is Error Toastic!",
-                    duration = Toastic.LENGTH_SHORT,
-                    type = Toastic.ERROR,
-                    isIconAnimated = animateIcon,
-                    font = if (changeFont) R.font.helveticabold else null,
-                    customIcon = if (setCustomIcon) R.drawable.ic_custom_icon else null,
-                    textColor = if (changeTextColor) Color.BLUE else null,
-                    customIconAnimation = if (setCustomIconAnim) R.anim.rotate else null
-                ).show()
-            }
-
-            infoBtn.setOnClickListener {
-                Toastic.toastic(
-                    context = this@MainActivity,
-                    message = "This is Info Toastic!",
-                    duration = Toastic.LENGTH_SHORT,
-                    type = Toastic.INFO,
-                    isIconAnimated = animateIcon,
-                    font = if (changeFont) R.font.helveticabold else null,
-                    customIcon = if (setCustomIcon) R.drawable.ic_custom_icon else null,
-                    textColor = if (changeTextColor) Color.BLUE else null,
-                    customIconAnimation = if (setCustomIconAnim) R.anim.rotate else null
-                ).show()
-            }*/
-
             defaultBtn.setOnClickListener {
                 CustomToast.customToast(
                     context = this@MainActivity,

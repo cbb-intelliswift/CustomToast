@@ -50,9 +50,9 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.intelliswift.customtoast'
-                artifactId = 'customtoast'
-                version = '1.0'
+                groupId = 'com.github.cbb-intelliswift'
+                artifactId = 'CustomToast'
+                version = '1.1.0'
             }
         }
     }
