@@ -25,7 +25,7 @@ repositories {
 }  
   
 dependencies {  
- implementation ''
+  implementation 'com.github.cbb-intelliswift:CustomToast:2e3d07ed9a'
 }  
 ```
 
