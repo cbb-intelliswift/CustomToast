@@ -4,7 +4,7 @@
     button.setOnClickListener {
     CustomToast.customToast(
                     context = this@MainActivity,
-                    message = "This is Default Toastic!",
+                    message = "This is Default Toast!",
                     duration = CustomToast.LENGTH_SHORT,
                     type = CustomToast.DEFAULT,
                     isIconAnimated = true,
@@ -17,7 +17,7 @@
             }
 ```
 
-# 🌸 Implementation  
+# Implementation  
 
 ```gradle  
 repositories {  
@@ -29,3 +29,6 @@ dependencies {
 }  
 ```
 
+```Link
+[![](https://jitpack.io/v/cbb-intelliswift/CustomToast.svg)](https://jitpack.io/#cbb-intelliswift/CustomToast)
+```
